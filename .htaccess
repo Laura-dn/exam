@@ -1,0 +1,14 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /
+
+#Отменить перенаправление, если такая папка на сервере существует
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Отменить перенаправление, если такой файл на сервере существует
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Регулярное выражение ^(.*)$ - любые файлы с любым расширением
+# RewriteRule - перенаправляю запросы с файлов по первому шаблону (^(.*)$) в файл на втором месте (index.php)
+RewriteRule ^(.*)$ index.php
