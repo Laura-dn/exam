@@ -1,0 +1,19 @@
+input::-webkit-input-placeholder       {text-indent: none; transition: text-indent 0.6s;}
+input:-moz-placeholder                 {text-indent: none; transition: text-indent 0.6s;}
+input:-ms-input-placeholder            {text-indent: none; transition: text-indent 0.6s;}
+input:focus::-webkit-input-placeholder {text-indent: 100vw; transition: text-indent 0.6s ease;}
+input:focus:-moz-placeholder           {text-indent: 100vw; transition: text-indent 0.6s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 100vw; transition: text-indent 0.6s ease;}
+
+input, button {
+    padding: 5px;
+    border-color: #A63E51;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #FFC0CB;
+    font-weight: bold;
+}
+
+button:hover {cursor: pointer;}

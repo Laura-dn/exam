@@ -1,0 +1,21 @@
+* {
+    font: 100%/1.5em Arial, Helvetica, serif;
+    box-sizing: border-box;
+    color: #A63E51;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #FFDCE2, #fff6db);
+}
+
+body>div:first-child, .cbalink {display: none;}

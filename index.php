@@ -15,5 +15,3 @@ include_once(ROOT . "/components/DataBase.php");
 //Вызов Роутера
 $router = new Router();
 $router->run();
-
-?>

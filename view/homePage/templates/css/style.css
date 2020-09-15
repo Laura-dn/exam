@@ -1,0 +1,146 @@
+@font-face {
+    font-family: fontName;
+    src: url(../../../../templates/fonts/fontName.ttf);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.siteName {
+    font-family: fontName;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo>a {text-decoration: none;}
+
+.logoName {
+    font-size: 5em;
+    text-align: right;
+    text-shadow: black 0 0 2px;
+}
+
+.desName {
+    font-weight: bold;
+    text-align: right;
+}
+
+.entrySalon, .mirror, .phone, .search {
+    text-align: center;
+}
+
+#entrySalon, #btnSearch {
+    font-size: 0.6em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inputSearch {
+    background-color: #FFDCE2;
+}
+
+#mirror {
+    padding: 20px 5px;
+    background: repeating-linear-gradient(135deg, #FFC0CB, #FFC0CB 10px, #FFDCE2 10px, #FFDCE2 20px);
+}
+
+.address {
+    font-size: 0.7em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.phone>section {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #FFDCE2;
+}
+
+.menuItem {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menuItem:hover {
+    background-color: #FFC0CB;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 0 auto;
+    overflow: auto;
+}
+
+.firstBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.greetingWords {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    margin: 15px;
+    font-size: 2em;
+}
+
+.greeting:first-child {
+    font-weight: bold;
+}
+
+.greeting:last-child {
+    font-size: 1em;
+}
+
+.nsmeInGreeting {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.secondRow {
+    display: block;
+    padding-left: 70px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+}
