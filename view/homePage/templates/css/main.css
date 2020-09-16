@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 0 auto;
+    overflow: auto;
+}
+
+.firstBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.greeting {
+    margin: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nsmeInGreeting {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.secondRow {
+    display: block;
+    padding-left: 70px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blockServices {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.st2 {fill:#BF9CA2;}
+.st3 {fill:#FFFFFF;}
+.services:hover .st2 {fill:#A63E51;}

@@ -5,19 +5,13 @@
 
 header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     flex: 0 0 auto;
 }
 
 .siteName {
     font-family: fontName;
-}
-
-.heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo>a {text-decoration: none;}
@@ -33,7 +27,7 @@ header {
     text-align: right;
 }
 
-.entrySalon, .mirror, .phone, .search {
+.entrySalon, .mirror, .phone, .search, .addressFooter, .phoneFooter {
     text-align: center;
 }
 
@@ -62,7 +56,7 @@ header {
     font-weight: bold;
 }
 
-.phone>section {
+.phoneHeader>section {
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -80,67 +74,9 @@ nav {
 .menuItem {
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
 }
 
 .menuItem:hover {
     background-color: #FFC0CB;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 1 0 auto;
-    overflow: auto;
-}
-
-.firstBlock {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.greetingWords {
-    display: flex;
-    flex-direction: column;
-}
-
-.greeting {
-    margin: 15px;
-    font-size: 2em;
-}
-
-.greeting:first-child {
-    font-weight: bold;
-}
-
-.greeting:last-child {
-    font-size: 1em;
-}
-
-.nsmeInGreeting {
-    font-weight: bold;
-    font-style: italic;
-}
-
-.secondRow {
-    display: block;
-    padding-left: 70px;
-}
-
-h3 {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    padding: 30px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 0 0 auto;
 }
