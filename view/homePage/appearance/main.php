@@ -92,6 +92,11 @@
     </section>
 
     <h2 class="index_10">О нас говорят <br>FEEDBACK от клиентов</h2>
+    <section>
+        <?php
+            var_dump($feedback);
+        ?>
+    </section>
 
 
 </main>

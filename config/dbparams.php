@@ -2,8 +2,8 @@
 
 return array(
     "host" => '127.0.0.1',
-    "db" => '',
+    "db" => 'laura_dn',
     "ch" => 'utf8mb4',
-    "user"=> '',
-    "pass" => '',
+    "user"=> 'lauradb',
+    "pass" => 'Laura2020',
 );
