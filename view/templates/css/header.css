@@ -8,6 +8,8 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 0 0 auto;
+    background-color: #FFDCE2;
+    padding-bottom: 30px;
 }
 
 .siteName {
@@ -65,7 +67,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 30px;
     position: sticky;
     top: 0;
     background-color: #FFDCE2;

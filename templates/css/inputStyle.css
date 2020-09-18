@@ -8,7 +8,7 @@ input:focus:-ms-input-placeholder      {text-indent: 100vw; transition: text-ind
 input, button {
     padding: 5px;
     border-color: #A63E51;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 button {

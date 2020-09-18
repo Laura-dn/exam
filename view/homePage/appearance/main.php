@@ -1,7 +1,7 @@
 <main class="index_12">
     <section class="firstBlock index_9">
         <section class="greeting index_6">
-            Посетив <span class="nsmeInGreeting">Имидж-Студию «Лаура»</span> однажды, Вы обязательно вернетесь сюда - ведь здесь атмосфера роскоши 
+            Посетив <span class="nameInGreeting">Имидж-Студию «Лаура»</span> однажды, Вы обязательно вернетесь сюда - ведь здесь атмосфера роскоши 
             и великолепия так безупречно сочетается с гармонией души и тела, здесь не понаслышке знают, как исполнить 
             все желания клиента, подарив ему безмятежность и тепло, молодость и красоту - настоящую и будущую…
         </section>
@@ -92,11 +92,13 @@
     </section>
 
     <h2 class="index_10">О нас говорят <br>FEEDBACK от клиентов</h2>
-    <section>
-        <?php
-            var_dump($feedback);
-        ?>
+    
+    <section class="blockFeedback index_10">
+        <?php include_once (ROOT . "/view/homePage/components/viewFeedback.php"); ?>
     </section>
 
-
+    <section class="btnAllFeedback index_10">
+        <a href=""><button id="btnAllFeedback">Все отзывы</button></a>
+    </section>
+    
 </main>

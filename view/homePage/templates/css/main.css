@@ -20,20 +20,16 @@ main {
     text-align: center;
 }
 
-.nsmeInGreeting {
+.nameInGreeting {
     font-weight: bold;
     font-style: italic;
-}
-
-.secondRow {
-    display: block;
-    padding-left: 70px;
 }
 
 h2 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    margin-top: 50px;
 }
 
 h3 {
@@ -43,7 +39,7 @@ h3 {
     text-align: center;
 }
 
-.blockServices {
+.blockServices, .blockFeedback {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -61,3 +57,47 @@ h3 {
 .st2 {fill:#BF9CA2;}
 .st3 {fill:#FFFFFF;}
 .services:hover .st2 {fill:#A63E51;}
+
+.borderFeedback {
+    border: 1px solid #A63E51;
+}
+
+.feedback {
+    margin: 0 0 25px -20px;
+    background-color: #ffeedd;
+}
+
+h4 {
+    margin: 25px 0 0 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.mark {
+    font-weight: bold;
+}
+
+.recall {
+    padding-top: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stars {
+    display: flex;
+}
+
+.btnAllFeedback {
+    margin-bottom: 50px;
+    padding-left: 40px;
+}
+
+#btnAllFeedback {
+    padding: 10px 20px;
+}
