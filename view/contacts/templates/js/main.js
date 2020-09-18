@@ -6,7 +6,3 @@ const mirror = new Mirror();
 
 import {LoadMap} from "./classes/LoadMap.js";
 const initMap = new LoadMap();
-
-// (function () {
-//     document.querySelector("#btnAuthorization").addEventListener("click", checkValue);
-// })()

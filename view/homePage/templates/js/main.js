@@ -3,7 +3,3 @@ const menuItems = new MenuItems();
 
 import {Mirror} from "../../../templates/js/classes/Mirror.js";
 const mirror = new Mirror();
-
-// (function () {
-//     document.querySelector("#btnAuthorization").addEventListener("click", checkValue);
-// })()
