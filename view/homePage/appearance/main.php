@@ -1,5 +1,5 @@
 <main class="index_12">
-    <section class="firstBlock index_9">
+    <section class="firstBlock index_10">
         <section class="greeting index_6">
             Посетив <span class="nameInGreeting">Имидж-Студию «Лаура»</span> однажды, Вы обязательно вернетесь сюда - ведь здесь атмосфера роскоши 
             и великолепия так безупречно сочетается с гармонией души и тела, здесь не понаслышке знают, как исполнить 
@@ -94,7 +94,7 @@
     <h2 class="index_10">О нас говорят <br>FEEDBACK от клиентов</h2>
     
     <section class="blockFeedback index_10">
-        <?php include_once (ROOT . "/view/homePage/components/viewFeedback.php"); ?>
+        <?php include_once (ROOT . "/components/viewFeedback.php"); ?>
     </section>
 
     <section class="btnAllFeedback index_10">
