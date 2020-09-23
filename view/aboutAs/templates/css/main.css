@@ -12,10 +12,10 @@ h2 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
-.firstBlock, .secondBlock {
+.firstBlock, .secondBlock, .covid {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,15 +35,13 @@ h2 {
     display: flex;
     align-items: center;
     font-weight: bold;
+    padding: 10px 0;
+    font-size: 1.2em;
 }
 
 .st10 {fill:#A63E51;}
-
-.aboutAsList svg {
-    margin-right: 40px;
-}
-
-.secondBlock {
-    margin-top: 50px;
-    flex-direction: column;
-}
+.aboutAsList svg {margin-right: 40px;}
+.secondBlock, .covid {flex-direction: column;}
+.covid {margin-top: 70px;}
+.covid h3, .covid li {font-style: italic;}
+h3 {font-weight: bold;}

@@ -10,3 +10,7 @@ footer {
 .strong {
     font-weight: bold;
 }
+
+.social a {
+    text-decoration: none;
+}

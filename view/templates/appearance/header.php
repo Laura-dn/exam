@@ -78,7 +78,7 @@
 
 <nav class="index_12">
         <a href="home" class="menuItem" id="home">ГЛАВНАЯ</a>
-        <a href="about" class="menuItem" id="aboutAs">О НАС</a>
+        <a href="about" class="menuItem" id="about">О НАС</a>
         <a href="" class="menuItem">УСЛУГИ И ЦЕНЫ</a>
         <a href="" class="menuItem">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
