@@ -15,7 +15,7 @@ h2 {
     margin-top: 50px;
 }
 
-.firstBlock {
+.firstBlock, .secondBlock {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,4 +29,21 @@ h2 {
 .nameInGreeting {
     font-weight: bold;
     font-style: italic;
+}
+
+.aboutAsList {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.st10 {fill:#A63E51;}
+
+.aboutAsList svg {
+    margin-right: 40px;
+}
+
+.secondBlock {
+    margin-top: 50px;
+    flex-direction: column;
 }

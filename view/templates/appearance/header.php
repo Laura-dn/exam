@@ -27,7 +27,7 @@
                      <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
                      <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>';
                 break;
-            case "aboutAs":
+            case "about":
                 echo '<link rel="stylesheet" href="../view/aboutAs/templates/css/main.css">';
                 break;
             default:
@@ -78,7 +78,7 @@
 
 <nav class="index_12">
         <a href="home" class="menuItem" id="home">ГЛАВНАЯ</a>
-        <a href="aboutAs" class="menuItem" id="aboutAs">О НАС</a>
+        <a href="about" class="menuItem" id="aboutAs">О НАС</a>
         <a href="" class="menuItem">УСЛУГИ И ЦЕНЫ</a>
         <a href="" class="menuItem">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
