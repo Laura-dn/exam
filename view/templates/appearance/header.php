@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../templates/css/gridLayout.css">
     <link rel="stylesheet" href="../templates/css/inputStyle.css">
     <link rel="stylesheet" href="../view/templates/css/header.css">
+    <link rel="stylesheet" href="../view/templates/css/entrySalonForm.css">
     
     <?php
         $url = $_SERVER['REQUEST_URI'];
@@ -48,7 +49,8 @@
     </section>
 
     <section class="entrySalon index_2">
-        <button id="entrySalon" class="index_10">ЗАПИСАТЬСЯ В САЛОН</button>
+        <button id="btnGetForm" class="index_10">ЗАПИСАТЬСЯ В САЛОН</button>
+
         <section class="address">
             г. Днепр, пр. Дмитрия Яворницкого, 50
             <a href="contacts">на карте</a>

@@ -1,3 +1,5 @@
+<?php include "entrySalonForm.php"; ?>
+
 <footer class="index_12">
     <section class="logo index_2">
         <a href="home" class="index_12">

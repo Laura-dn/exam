@@ -6,14 +6,17 @@ input:focus:-moz-placeholder           {text-indent: 100vw; transition: text-ind
 input:focus:-ms-input-placeholder      {text-indent: 100vw; transition: text-indent 0.6s ease;}
 
 input, button {
+    background-color: #FFC0CB;
+}
+
+input, button {
     padding: 5px;
     border-color: #A63E51;
     border-radius: 5px;
 }
 
 button {
-    background-color: #FFC0CB;
     font-weight: bold;
 }
 
-button:hover {cursor: pointer;}
+button:hover, input[type="submit"] {cursor: pointer;}

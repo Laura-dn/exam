@@ -6,3 +6,6 @@ const mirror = new Mirror();
 
 import {LoadMap} from "./classes/LoadMap.js";
 const initMap = new LoadMap();
+
+import {EntrySalon} from "../../../templates/js/classes/EntrySalon.js";
+const entrySalon = new EntrySalon();
