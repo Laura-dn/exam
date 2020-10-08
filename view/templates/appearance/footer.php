@@ -77,6 +77,9 @@
         case "about":
             echo '<script src="../view/aboutAs/templates/js/main.js" type="module"></script>';
             break;
+        case "price/haircut":
+            echo '<script src="../view/services/templates/js/main.js" type="module"></script>';
+            break;
         default:
             echo '<script src="../view/homePage/templates/js/main.js" type="module"></script>';
             break;

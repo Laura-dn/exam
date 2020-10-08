@@ -4,7 +4,7 @@
     <p>Просто укажите удобный для Вас день и оставте</p>
     <p>Ваши контакты - мы подберем лучшее время для Вас</p>
 
-    <form action="/" class="index_6">
+    <form action="" class="index_6">
         <input type="text" class="index_10" placeholder="Ваше имя">
 
         <section>
@@ -18,8 +18,8 @@
         </section>
 
         <section>
-            <input type="submit" value="Записаться" id="btnEntrySalon">
-            <input type="submit" value="Закрыть" id="btnCloseForm">
+            <input type="submit" value="Записаться" id="btnEntrySalon" class="index_2">
+            <input type="submit" value="Закрыть" id="btnCloseForm" class="index_2">
         </section>
     </form>
 

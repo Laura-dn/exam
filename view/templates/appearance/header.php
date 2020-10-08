@@ -31,6 +31,9 @@
             case "about":
                 echo '<link rel="stylesheet" href="../view/aboutAs/templates/css/main.css">';
                 break;
+            case "price/haircut":
+                echo '<link rel="stylesheet" href="../view/services/templates/css/main.css">';
+                break;
             default:
                 echo '<link rel="stylesheet" href="../view/homePage/templates/css/main.css">';
                 break;
@@ -42,7 +45,7 @@
 <body>
 <header class="heading index_12">
     <section class="logo index_2">
-        <a href="home" class="index_12">
+        <a href="/home" class="index_12">
             <section class="logoName siteName index_12">Лаура</section>
             <section class="desName">имидж-студия</section>
         </a>
@@ -53,7 +56,7 @@
 
         <section class="address">
             г. Днепр, пр. Дмитрия Яворницкого, 50
-            <a href="contacts">на карте</a>
+            <a href="/contacts">на карте</a>
         </section>
     </section>
 
@@ -79,9 +82,9 @@
 </header>
 
 <nav class="index_12">
-        <a href="home" class="menuItem" id="home">ГЛАВНАЯ</a>
-        <a href="about" class="menuItem" id="about">О НАС</a>
-        <a href="" class="menuItem">УСЛУГИ И ЦЕНЫ</a>
+        <a href="/home" class="menuItem" id="home">ГЛАВНАЯ</a>
+        <a href="/about" class="menuItem" id="about">О НАС</a>
+        <a href="/price/" class="menuItem" id="price">УСЛУГИ И ЦЕНЫ</a>
         <a href="" class="menuItem">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
         <a href="" class="menuItem">БЛОГ</a>

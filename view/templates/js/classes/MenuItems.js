@@ -6,6 +6,8 @@ export class MenuItems
 
     getMenuItem() {
         let pathName = document.location.pathname.replace(/\//g, "");
+
+        console.log(pathName);
         
         if(pathName === "") {
             pathName = "home";

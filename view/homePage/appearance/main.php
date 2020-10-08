@@ -12,7 +12,7 @@
     <h2 class="index_10">Услуги студии</h2>
 
     <section class="blockServices index_10">
-        <a href="" class="services index_2">
+        <a href="price/haircut" class="services index_2">
             <svg class="index_8" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <circle class="st2" cx="81" cy="81" r="50.5"></circle>
