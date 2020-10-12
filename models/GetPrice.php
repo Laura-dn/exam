@@ -4,6 +4,11 @@ class GetPrice
 {
     private $price;
 
+    public function getAllServices()
+    {
+        return "test All";
+    }
+
     public function getHaircut()
     {
         return "test";

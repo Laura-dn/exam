@@ -67,6 +67,10 @@
     $url = explode('?', $url);
     $url = trim($url[0], "/");
 
+    if(preg_match("/price/", $url)) {
+        $url = "price";
+    }
+
     switch($url) {
         case "home":
             echo '<script src="../view/homePage/templates/js/main.js" type="module"></script>';
@@ -77,7 +81,7 @@
         case "about":
             echo '<script src="../view/aboutAs/templates/js/main.js" type="module"></script>';
             break;
-        case "price/haircut":
+        case "price":
             echo '<script src="../view/services/templates/js/main.js" type="module"></script>';
             break;
         default:

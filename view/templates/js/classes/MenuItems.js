@@ -6,9 +6,12 @@ export class MenuItems
 
     getMenuItem() {
         let pathName = document.location.pathname.replace(/\//g, "");
-
-        console.log(pathName);
+        const reg = /price/gi;
         
+        if(reg.test(pathName)) {
+            pathName = "price";
+        }
+
         if(pathName === "") {
             pathName = "home";
         }

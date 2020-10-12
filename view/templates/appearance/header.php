@@ -19,6 +19,10 @@
         $url = explode('?', $url);
         $url = trim($url[0], "/");
 
+        if(preg_match("/price/", $url)) {
+            $url = "price";
+        }
+
         switch($url) {
             case "home":
                 echo '<link rel="stylesheet" href="../view/homePage/templates/css/main.css">';
@@ -31,7 +35,7 @@
             case "about":
                 echo '<link rel="stylesheet" href="../view/aboutAs/templates/css/main.css">';
                 break;
-            case "price/haircut":
+            case "price":
                 echo '<link rel="stylesheet" href="../view/services/templates/css/main.css">';
                 break;
             default:
@@ -84,7 +88,7 @@
 <nav class="index_12">
         <a href="/home" class="menuItem" id="home">ГЛАВНАЯ</a>
         <a href="/about" class="menuItem" id="about">О НАС</a>
-        <a href="/price/" class="menuItem" id="price">УСЛУГИ И ЦЕНЫ</a>
+        <a href="/price" class="menuItem" id="price">УСЛУГИ И ЦЕНЫ</a>
         <a href="" class="menuItem">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
         <a href="" class="menuItem">БЛОГ</a>
