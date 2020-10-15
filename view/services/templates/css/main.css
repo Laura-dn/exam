@@ -6,3 +6,34 @@ main {
     flex: 1 0 auto;
     overflow: auto;
 }
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+table {
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+th:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+th:last-child, td:last-child {
+    text-align: right;
+}
+
+th {
+    border-bottom: 2px solid  #A63E51;
+}
+
+.note {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+}

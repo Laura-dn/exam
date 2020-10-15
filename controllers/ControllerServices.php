@@ -8,13 +8,14 @@ class ControllerServices
         $getPrice = new GetPrice();
 
         if(!empty($service)) {
-            $modelMeth = "get" . ucfirst(array_shift($service));
+            $modelMeth = "get" . ucfirst($service[0]);
             $price = $getPrice->$modelMeth();
         } else {
             $price = $getPrice->getAllServices();
         }
 
         include (ROOT . "/view/services/index.php");
+        
         return true;
     }
 }

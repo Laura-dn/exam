@@ -26,7 +26,7 @@
             <h3>СТРИЖКИ, <br>УКЛАДКИ</h3>
         </a>
             
-        <a href="" class="services index_2">
+        <a href="price/coloring" class="services index_2">
             <svg class="index_8" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <circle class="st2" cx="81" cy="81" r="50.3"></circle>

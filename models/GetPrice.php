@@ -11,52 +11,43 @@ class GetPrice
 
     public function getHaircut()
     {
-        return "test";
-    }
-
-
-
-    public function getFiveLastFeedback()
-    {
         $cursor = DataBase::getDBConnection();
-
-        $myQuery = "SELECT * FROM `feedback` ORDER BY `id` DESC LIMIT 5";
-
-        //Подготовка сообщения и настрйока переменной для ответа
-        $arr = $cursor->prepare($myQuery);
         
-        //выполнение запроса
-        $arr->execute();
-        
-        //Разобр SQL-ответа, занос его в массив.
-        while($row = $arr->fetch()) {
-            $this->arrFeedback[] = $row;
+        $myQuery = "SELECT * FROM `haircut` WHERE `gender` = 'F'";
+        $arrF = $cursor->prepare($myQuery);
+        $arrF->execute();
+
+        $myQuery = "SELECT * FROM `haircut` WHERE `gender` = 'M'";
+        $arrM = $cursor->prepare($myQuery);
+        $arrM->execute();
+
+        while($row = $arrF->fetch()) {
+            $this->price[] = $row;
         }
-        
+
+        while($row = $arrM->fetch()) {
+            $this->price[] = $row;
+        }
+
         $cursor = null;
 
-        return $this->arrFeedback;
+        return $this->price;
     }
 
-    public function getAllFeedback()
+    public function getColoring()
     {
         $cursor = DataBase::getDBConnection();
-
-        $myQuery = "SELECT * FROM `feedback`";
-
-        //Подготовка сообщения и настрйока переменной для ответа
+        
+        $myQuery = "SELECT * FROM `coloring`";
         $arr = $cursor->prepare($myQuery);
-        
-        //выполнение запроса
         $arr->execute();
-        
-        //Разобр SQL-ответа, занос его в массив.
+
         while($row = $arr->fetch()) {
-            $this->arrFeedback[] = $row;
+            $this->price[] = $row;
         }
-        
+
         $cursor = null;
 
-        return $this->arrFeedback;
+        return $this->price;
     }
 }
