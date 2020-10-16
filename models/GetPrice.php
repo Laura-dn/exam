@@ -3,29 +3,17 @@
 class GetPrice
 {
     private $price;
+    private $table = "services";
 
     public function getAllServices()
     {
-        return "test All";
-    }
-
-    public function getHaircut()
-    {
         $cursor = DataBase::getDBConnection();
-        
-        $myQuery = "SELECT * FROM `haircut` WHERE `gender` = 'F'";
+
+        $myQuery = "SELECT * FROM `$this->table`";
         $arrF = $cursor->prepare($myQuery);
         $arrF->execute();
 
-        $myQuery = "SELECT * FROM `haircut` WHERE `gender` = 'M'";
-        $arrM = $cursor->prepare($myQuery);
-        $arrM->execute();
-
         while($row = $arrF->fetch()) {
-            $this->price[] = $row;
-        }
-
-        while($row = $arrM->fetch()) {
             $this->price[] = $row;
         }
 
@@ -34,15 +22,15 @@ class GetPrice
         return $this->price;
     }
 
-    public function getColoring()
+    public function getService($service)
     {
         $cursor = DataBase::getDBConnection();
-        
-        $myQuery = "SELECT * FROM `coloring`";
-        $arr = $cursor->prepare($myQuery);
-        $arr->execute();
 
-        while($row = $arr->fetch()) {
+        $myQuery = "SELECT * FROM `$this->table` WHERE `service` = '$service'";
+        $arrF = $cursor->prepare($myQuery);
+        $arrF->execute();
+
+        while($row = $arrF->fetch()) {
             $this->price[] = $row;
         }
 

@@ -5,11 +5,11 @@ class ControllerServices
 {
     public function actionPrice($service)
     {
+        $service = array_shift($service);
         $getPrice = new GetPrice();
 
         if(!empty($service)) {
-            $modelMeth = "get" . ucfirst($service[0]);
-            $price = $getPrice->$modelMeth();
+            $price = $getPrice->getService($service);
         } else {
             $price = $getPrice->getAllServices();
         }

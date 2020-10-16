@@ -26,10 +26,15 @@ th:first-child {
 
 th:last-child, td:last-child {
     text-align: right;
+    font-style: italic;
 }
 
 th {
     border-bottom: 2px solid  #A63E51;
+}
+
+td {
+    border-bottom: 1px solid  #A63E51;
 }
 
 .note {

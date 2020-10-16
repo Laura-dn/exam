@@ -4,7 +4,7 @@
     $endTable = "</table>";
 
     foreach($price as $value) {
-        if($value["gender"] === "F") {
+        if($value["type"] === "F") {
             $female .= "<tr><td>" . $value["serviceName"] . "</td><td>" . $value["price"] . "</td></tr>";
         } else {
             $man .= "<tr><td>" . $value["serviceName"] . "</td><td>" . $value["price"] . "</td></tr>";

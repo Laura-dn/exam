@@ -2,15 +2,27 @@
     <h2>Прайс</h2>
 
 <?php
-    switch($service[0]) {
+    switch($service) {
         case "haircut":
             include (ROOT . "/components/viewHaircut.php");
             break;
         case "coloring":
             include (ROOT . "/components/viewColoring.php");
             break;
+        case "haircare":
+            include (ROOT . "/components/viewHaircare.php");
+            break;
+        case "manicure":
+            include (ROOT . "/components/viewManicure.php");
+            break;
+        case "cosmetology":
+            include (ROOT . "/components/viewCosmetology.php");
+            break;
+        case "makeup":
+            include (ROOT . "/components/viewMakeup.php");
+            break;
         default:
-            echo "Цены временно не доступны. Уточняйте в салоне.";
+            include (ROOT . "/components/viewAllServices.php");
             break;
     }
 ?>

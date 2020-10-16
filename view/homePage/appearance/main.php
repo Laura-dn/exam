@@ -37,7 +37,7 @@
             <h3>ОКРАШИВАНИЕ <br>ВОЛОС</h3>
         </a>
 
-        <a href="" class="services index_2">
+        <a href="price/haircare" class="services index_2">
             <svg class="index_8" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <circle class="st2" cx="81" cy="81" r="50.3"></circle>
@@ -50,7 +50,7 @@
     </section>
 
     <section class="blockServices index_10">
-        <a href="" class="services index_2">
+        <a href="price/manicure" class="services index_2">
             <svg class="index_8" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <circle class="st2" cx="81" cy="81" r="50.3"></circle>
@@ -60,7 +60,7 @@
             <h3>МАНИКЮР, <br>ПЕДИКЮР</h3>
         </a>
 
-        <a href="" class="services index_2">
+        <a href="price/cosmetology" class="services index_2">
             <svg class="index_8" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <circle class="st2" cx="81" cy="81" r="50.3"></circle>
@@ -78,7 +78,7 @@
             <h3>КОСМЕТОЛОГИЯ, <br>МАССАЖ</h3>
         </a>
 
-        <a href="" class="services index_2">
+        <a href="price/makeup" class="services index_2">
             <svg class="index_8" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <circle class="st2" cx="81" cy="81" r="50.3"></circle>
