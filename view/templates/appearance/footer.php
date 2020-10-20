@@ -61,7 +61,7 @@
                 </svg>
             </a>
         </section>
-        <p class="index_12">Site by Avrakhova Laura &#169; 2020</p>
+        <p class="copyright index_12">Site by Avrakhova Laura &#169; 2020</p>
     </section>
 </footer>
 
