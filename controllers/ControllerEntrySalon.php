@@ -8,7 +8,7 @@ class ControllerEntrySalon
         $setData = new SetBid();
         $entrySalon = $setData->entrySalon();
 
-        include (ROOT . "/view/services/index.php");
+        // include (ROOT . "/view/homePage/index.php");
         
         return true;
     }
