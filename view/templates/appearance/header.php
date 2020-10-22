@@ -23,6 +23,10 @@
             $url = "price";
         }
 
+        if($url === "") {
+            $url = "home";
+        }
+
         switch($url) {
             case "home":
                 echo '<link rel="stylesheet" href="../view/homePage/templates/css/main.css">';
@@ -38,8 +42,11 @@
             case "price":
                 echo '<link rel="stylesheet" href="../view/services/templates/css/main.css">';
                 break;
+            case "sendForm":
+                echo '<link rel="stylesheet" href="../view/sendForm/templates/css/main.css">';
+                break;
             default:
-                echo '<link rel="stylesheet" href="../view/homePage/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="../view/page404/templates/css/main.css">';
                 break;
         }
     ?>

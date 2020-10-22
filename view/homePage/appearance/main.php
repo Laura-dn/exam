@@ -100,5 +100,4 @@
     <section class="btnAllFeedback index_10">
         <a href=""><button id="btnAllFeedback">Все отзывы</button></a>
     </section>
-    
 </main>

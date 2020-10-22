@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.msgSend {
+    font-size: 1.5em;
+    font-weight: bold;
+}

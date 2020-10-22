@@ -6,8 +6,13 @@ export class MenuItems
 
     getMenuItem() {
         let pathName = document.location.pathname.replace(/\//g, "");
-        const reg = /price/gi;
-        
+        const reg = /price/gi,
+              arrPath = [
+                  "home",
+                  "about",
+                  "price"
+              ];
+
         if(reg.test(pathName)) {
             pathName = "price";
         }
@@ -16,8 +21,11 @@ export class MenuItems
             pathName = "home";
         }
 
-        const item = document.querySelector(`#${pathName}`);
-
-        item.style.borderBottom = "2px solid #A63E51";
+        arrPath.forEach(el => {
+            if(el === pathName) {
+                let item = document.querySelector(`#${pathName}`);                
+                item.style.borderBottom = "2px solid #A63E51";
+            }
+        });
     }
 }
