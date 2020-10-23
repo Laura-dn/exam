@@ -6,13 +6,13 @@
     <meta name="description" content="IT Academy Step Dnipro; graduate work; Avrakhova L.">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="../templates/images/logo.png">
+    <link rel="icon" type="image/png" href="/templates/images/logo.png">
     <title>Laura</title>
-    <link rel="stylesheet" href="../templates/css/baseStyle.css">
-    <link rel="stylesheet" href="../templates/css/gridLayout.css">
-    <link rel="stylesheet" href="../templates/css/inputStyle.css">
-    <link rel="stylesheet" href="../view/templates/css/header.css">
-    <link rel="stylesheet" href="../view/templates/css/entrySalonForm.css">
+    <link rel="stylesheet" href="/templates/css/baseStyle.css">
+    <link rel="stylesheet" href="/templates/css/gridLayout.css">
+    <link rel="stylesheet" href="/templates/css/inputStyle.css">
+    <link rel="stylesheet" href="/view/templates/css/header.css">
+    <link rel="stylesheet" href="/view/templates/css/entrySalonForm.css">
     
     <?php
         $url = $_SERVER['REQUEST_URI'];
@@ -29,29 +29,29 @@
 
         switch($url) {
             case "home":
-                echo '<link rel="stylesheet" href="../view/homePage/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="/view/homePage/templates/css/main.css">';
                 break;
             case "contacts":
-                echo '<link rel="stylesheet" href="../view/contacts/templates/css/main.css">
+                echo '<link rel="stylesheet" href="/view/contacts/templates/css/main.css">
                      <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
                      <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>';
                 break;
             case "about":
-                echo '<link rel="stylesheet" href="../view/aboutAs/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="/view/aboutAs/templates/css/main.css">';
                 break;
             case "price":
-                echo '<link rel="stylesheet" href="../view/services/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="/view/services/templates/css/main.css">';
                 break;
             case "sendForm":
-                echo '<link rel="stylesheet" href="../view/sendForm/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="/view/sendForm/templates/css/main.css">';
                 break;
             default:
-                echo '<link rel="stylesheet" href="../view/page404/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="/view/page404/templates/css/main.css">';
                 break;
         }
     ?>
 
-    <link rel="stylesheet" href="../view/templates/css/footer.css">
+    <link rel="stylesheet" href="/view/templates/css/footer.css">
 </head>
 <body>
 <header class="heading index_12">

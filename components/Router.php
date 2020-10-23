@@ -31,7 +31,7 @@ class Router
         //Есть ли такой запрос в $routes
         foreach ($this->routes as $userUri => $path)
         {
-            if(preg_match("~$userUri~", $uri) == 1)
+            if(preg_match("~^$userUri$~", $uri) == 1)
             {
                 $path = preg_replace("~$userUri~", $path, $uri);
                 //Если есть - определяем какой контроллер запускает класс и метод

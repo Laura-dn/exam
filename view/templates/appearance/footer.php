@@ -80,22 +80,22 @@
 
     switch($url) {
         case "home":
-            echo '<script src="../view/homePage/templates/js/main.js" type="module"></script>';
+            echo '<script src="/view/homePage/templates/js/main.js" type="module"></script>';
             break;
         case "contacts":
-            echo '<script src="../view/contacts/templates/js/main.js" type="module"></script>';
+            echo '<script src="/view/contacts/templates/js/main.js" type="module"></script>';
             break;
         case "about":
-            echo '<script src="../view/aboutAs/templates/js/main.js" type="module"></script>';
+            echo '<script src="/view/aboutAs/templates/js/main.js" type="module"></script>';
             break;
         case "price":
-            echo '<script src="../view/services/templates/js/main.js" type="module"></script>';
+            echo '<script src="/view/services/templates/js/main.js" type="module"></script>';
             break;
         case "sendForm":
-            echo '<script src="../view/sendForm/templates/js/main.js" type="module"></script>';
+            echo '<script src="/view/sendForm/templates/js/main.js" type="module"></script>';
             break;
         default:
-            echo '<script src="../view/page404/templates/js/main.js" type="module"></script>';
+            echo '<script src="/view/page404/templates/js/main.js" type="module"></script>';
             break;
     }
 ?>
