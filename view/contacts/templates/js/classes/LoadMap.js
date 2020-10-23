@@ -8,7 +8,7 @@ export class LoadMap
         const myMap = {
             lat: 48.464495,
             lng: 35.047454,
-        }
+        };
         
         const platform = new H.service.Platform({
             'apikey': '3xG1aah8fW_oXNlO8C1vcD-S3kmfV1qxPCgJyeR-jbA'
