@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 0 auto;
+    overflow: auto;
+}
+
+.blockFeedback {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.borderFeedback {
+    border: 1px solid #A63E51;
+    margin: 10px;
+}
+
+.feedback {
+    margin: 0 0 25px -20px;
+    background-color: #ffeedd;
+}
+
+h4 {
+    margin: 25px 0 0 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.mark {
+    font-weight: bold;
+}
+
+.recall {
+    padding-top: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stars {
+    display: flex;
+}

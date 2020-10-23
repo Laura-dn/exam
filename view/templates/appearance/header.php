@@ -42,11 +42,8 @@
             case "price":
                 echo '<link rel="stylesheet" href="/view/services/templates/css/main.css">';
                 break;
-            case "sendForm":
-                echo '<link rel="stylesheet" href="/view/sendForm/templates/css/main.css">';
-                break;
             default:
-                echo '<link rel="stylesheet" href="/view/page404/templates/css/main.css">';
+                echo '<link rel="stylesheet" href="/view/' . $url . '/templates/css/main.css">';
                 break;
         }
     ?>
@@ -99,5 +96,5 @@
         <a href="" class="menuItem">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
         <a href="" class="menuItem">БЛОГ</a>
-        <a href="contacts" class="menuItem" id="contacts">КОНТАКТЫ</a>
+        <a href="/contacts" class="menuItem" id="contacts">КОНТАКТЫ</a>
 </nav>

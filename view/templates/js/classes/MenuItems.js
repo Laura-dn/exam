@@ -10,7 +10,8 @@ export class MenuItems
               arrPath = [
                   "home",
                   "about",
-                  "price"
+                  "price",
+                  "contacts"
               ];
 
         if(reg.test(pathName)) {
