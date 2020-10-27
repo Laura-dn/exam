@@ -79,9 +79,6 @@
     }
 
     switch($url) {
-        case "home":
-            echo '<script src="/view/homePage/templates/js/main.js" type="module"></script>';
-            break;
         case "about":
             echo '<script src="/view/aboutAs/templates/js/main.js" type="module"></script>';
             break;

@@ -28,9 +28,6 @@
         }
 
         switch($url) {
-            case "home":
-                echo '<link rel="stylesheet" href="/view/homePage/templates/css/main.css">';
-                break;
             case "contacts":
                 echo '<link rel="stylesheet" href="/view/contacts/templates/css/main.css">
                      <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>

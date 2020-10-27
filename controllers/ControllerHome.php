@@ -8,7 +8,7 @@ class ControllerHome
         $getFeedback = new GetFeedback();
         $feedback = $getFeedback->getFiveLastFeedback();
 
-        include (ROOT . "/view/homePage/index.php");
+        include (ROOT . "/view/home/index.php");
         return true;
     }
 }
