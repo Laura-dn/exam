@@ -11,7 +11,9 @@ export class MenuItems
                   "home",
                   "about",
                   "price",
-                  "contacts"
+                  "contacts",
+                  "gallery",
+                  "blog"
               ];
 
         if(reg.test(pathName)) {
@@ -25,7 +27,7 @@ export class MenuItems
         arrPath.forEach(el => {
             if(el === pathName) {
                 let item = document.querySelector(`#${pathName}`);                
-                item.style.borderBottom = "2px solid #A63E51";
+                item.style.borderBottom = "3px solid #A63E51";
             }
         });
     }

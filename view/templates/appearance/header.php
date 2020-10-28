@@ -96,8 +96,8 @@
         <a href="/home" class="menuItem" id="home">ГЛАВНАЯ</a>
         <a href="/about" class="menuItem" id="about">О НАС</a>
         <a href="/price" class="menuItem" id="price">УСЛУГИ И ЦЕНЫ</a>
-        <a href="/gallery" class="menuItem">ЗАЛ КРАСОТЫ</a>
+        <a href="/gallery" class="menuItem" id="gallery">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
-        <a href="" class="menuItem">БЛОГ</a>
+        <a href="/blog" class="menuItem" id="blog">БЛОГ</a>
         <a href="/contacts" class="menuItem" id="contacts">КОНТАКТЫ</a>
 </nav>

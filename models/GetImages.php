@@ -9,6 +9,7 @@ class GetImages
         $filter = array(".", "..");
         $dir = ROOT . "/templates/images/img";
         $arr = array_values(array_diff(scandir($dir), $filter));
+        shuffle($arr);
 
         foreach($arr as $value) {
             $this->gallery .= '<a href="/templates/images/img/' . $value . '" data-fancybox="images" data-caption="Наши работы" class="index_2">

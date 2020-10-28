@@ -1,6 +1,7 @@
 <?php
 
 return array(
+    "blog"                  => "blog/viewArticles",
     "gallery"               => "gallery/viewImages",
     "feedback"              => "feedback/allFeedback",
     "sendForm"              => "entrySalon/setBid",
