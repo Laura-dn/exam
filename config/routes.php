@@ -1,6 +1,7 @@
 <?php
 
 return array(
+    "gallery"               => "gallery/viewImages",
     "feedback"              => "feedback/allFeedback",
     "sendForm"              => "entrySalon/setBid",
     "price/([a-zA-Z0-9]+)"  => "services/price/$1",

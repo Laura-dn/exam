@@ -28,6 +28,12 @@
         }
 
         switch($url) {
+            case "gallery":
+                echo '<link rel="stylesheet" href="/view/gallery/templates/css/main.css">
+                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+                     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>';
+                break;
             case "contacts":
                 echo '<link rel="stylesheet" href="/view/contacts/templates/css/main.css">
                      <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
@@ -90,7 +96,7 @@
         <a href="/home" class="menuItem" id="home">ГЛАВНАЯ</a>
         <a href="/about" class="menuItem" id="about">О НАС</a>
         <a href="/price" class="menuItem" id="price">УСЛУГИ И ЦЕНЫ</a>
-        <a href="" class="menuItem">ЗАЛ КРАСОТЫ</a>
+        <a href="/gallery" class="menuItem">ЗАЛ КРАСОТЫ</a>
         <a href="" class="menuItem">БУТИК</a>
         <a href="" class="menuItem">БЛОГ</a>
         <a href="/contacts" class="menuItem" id="contacts">КОНТАКТЫ</a>

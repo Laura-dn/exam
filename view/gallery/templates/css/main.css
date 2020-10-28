@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    overflow: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+    border: 5px solid #A63E51;
+}
